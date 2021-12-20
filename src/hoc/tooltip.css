@@ -4,12 +4,36 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  position:relative;
+  
+}
+
+.tooltip-wrapper {
+  padding: 10px;
+  background-color: #05204b;
+  width: 400px;
+  height: 120px;
+  border-radius: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width:500px;
+}
+
+.tooltip-wrapper:hover{
+    transition: all 0.3s ease-out;
+    transform:translateY(5px);
+}
+
+h1 {
+  color: #fff;
 }
 
 p {
   margin-top: 10px;
-  background-color:#05204B;
-  color:white;
+  background-color: #05204b;
+  color: white;
 }
 
 .input {

@@ -19,5 +19,11 @@ use the command npm start in the terminal to start the app.
 Nous utilisons React, n'oubliez pas de npm i afin d'installer les dependencies.
 utilisez la commande npm start pour démarrer l'app.
 
+IMPORTANT :
+
+The code that matters is located in the hoc src>hoc folder, that is where the logic happens.
+
+Le code relatif à l'exercice est situé dans le dossier src>hoc, vous y trouverez des explications sur la logique employée.
+
 
 
