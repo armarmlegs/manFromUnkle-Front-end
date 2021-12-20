@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import "./text.css";
 import withToolTip from "./withToolTip"; // HOC importée et qui contient toute la logique
 
 // creating the initial component, a simple text div, this component will be the argument in the higher order component withToolTip,
@@ -11,7 +10,9 @@ class Text extends Component {
     return (
       <div>
         <input />
-        <div>{this.props.showToolTip && <p> please enter your name here </p>}</div>
+        <div>
+          {this.props.showToolTip && <p> please enter your name here </p>}
+        </div>
       </div>
     );
   }
