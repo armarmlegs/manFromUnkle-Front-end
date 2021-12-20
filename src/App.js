@@ -1,11 +1,11 @@
-import Text from "./hoc/text";
+import Home from './pages/home.jsx'
+import './App.css'
 
 
 function App() {
   return (
     <div className="App">
-      <h1>Unkle training Grounds </h1>
-      <Text />
+    <Home />
     </div>
   );
 }

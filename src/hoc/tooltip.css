@@ -1,0 +1,17 @@
+.tooltip-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+p {
+  margin-top: 10px;
+  background-color:#05204B;
+  color:white;
+}
+
+.input {
+  height: 300px;
+}

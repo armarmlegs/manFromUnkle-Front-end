@@ -1,4 +1,6 @@
 import React from "react";
+import './tooltip.css'
+
 
 // creation de la function
 
@@ -16,10 +18,15 @@ function withToolTip(Component) {
     };
     render() {
       return (
-        <div onMouseOver={this.mouseOver} onMouseOut={this.mouseOut}>
-          <Component showToolTip={this.state.showToolTip} />      
+         <div className='tooltip-container'>
+             <h1>Front-end Test</h1>
+        <div className='input' onMouseOver={this.mouseOver} onMouseOut={this.mouseOut} >
+            
+          <Component  showToolTip={this.state.showToolTip} />      
           {/* props showToolTip contient la valeure true ou false dont nous aurons besoin dans le component text*/}
         </div>
+        </div>
+        
       );
     }
   };

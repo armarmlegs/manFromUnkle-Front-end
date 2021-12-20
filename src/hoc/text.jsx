@@ -8,11 +8,13 @@ import withToolTip from "./withToolTip"; // HOC importée et qui contient toute 
 class Text extends Component {
   render() {
     return (
-      <div>
-        <input />
+      <div className="container">
         <div>
-          {this.props.showToolTip && <p> please enter your name here </p>}
+          <input />
+
+          {/* si la valeur de showToolTip est truthy, le paragraphe "p" apparaitras sous l'input */}
         </div>
+        {this.props.showToolTip && <p>Paste Git Repo Url </p>}
       </div>
     );
   }
