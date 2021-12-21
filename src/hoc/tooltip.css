@@ -2,28 +2,34 @@
   height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
   position:relative;
+  background-color: #05204b;
+  
   
 }
 
 .tooltip-wrapper {
   padding: 10px;
+  margin-left:60px;
   background-color: #05204b;
-  width: 400px;
-  height: 120px;
+  width: 300px;
+  height: 90px;
   border-radius: 80px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   max-width:500px;
+  min-width:300px;
+
 }
 
 .tooltip-wrapper:hover{
     transition: all 0.3s ease-out;
     transform:translateY(5px);
+    background-color:#359CE6;
 }
 
 h1 {
@@ -32,10 +38,30 @@ h1 {
 
 p {
   margin-top: 10px;
-  background-color: #05204b;
+  background-color: #359CE6;
   color: white;
 }
 
 .input {
   height: 300px;
+}
+
+.topline{
+  padding-left:50px;
+  padding-bottom:40px;
+color:#fff;
+max-width:600px;
+font-size:50px
+
+
+}
+
+@media screen and (max-width: 600px) {
+  .topline{
+    font-size:40px;
+  }
+}
+
+.tag{
+  font-size:20px;
 }

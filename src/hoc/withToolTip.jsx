@@ -19,8 +19,9 @@ function withToolTip(Component) {
     render() {
       return (
          <div className='tooltip-container'>
+           <h1 className='topline'>Avec Unkle, sécurisez vos paiements de loyers en 1 Click.</h1>
              <div className="tooltip-wrapper">
-             <h1>Front-end Test</h1>
+             <h1 className="tag">Front-end Test</h1>
         <div className='input' onMouseOver={this.mouseOver} onMouseOut={this.mouseOut} >
             
           <Component  showToolTip={this.state.showToolTip} />      

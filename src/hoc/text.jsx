@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 import withToolTip from "./withToolTip"; // HOC importée et qui contient toute la logique
 
-// creating the initial component, a simple text div, this component will be the argument in the higher order component withToolTip,
-// the behavior is that when the mouse enter a explicative text will appear underneath the initial div,
-// likewise on mouseLeave will make the explicative text disappear.
+
+//creation du component initial, une simple div, ce componenet sera l'argument de notre function withtooltip.
+
 
 class Text extends Component {
   render() {
