@@ -26,4 +26,14 @@ The code that matters is located in the hoc src>hoc folder, that is where the lo
 Le code relatif à l'exercice est situé dans le dossier src>hoc, vous y trouverez des explications sur la logique employée.
 
 
+Le styling des composants se trouve dans les fichiers css correspondants, j'utilise le système className classique, en temps normal, je travaille beaucoup avec les styled components; 
+
+
+n'hésitez pas à me contacter pour plus de précision;
+
+bouba@gmail.com
+
+
+
+
 
