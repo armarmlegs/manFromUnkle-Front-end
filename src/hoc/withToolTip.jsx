@@ -5,7 +5,7 @@ import './tooltip.css'
 // creation de la function
 
 function withToolTip(Component) {
-  //dans cette function, je crée un nouveau component (WithToolTip) qui va wrappé le composant original (Text)
+  //dans cette function, je crée un nouveau  class component (WithToolTip) qui va wrappé le composant original (Text)
   //le hoc va nous permettre d'appliquer la meme logique a n'importe quel component créé dans le futur.
 
   return class WithToolTip extends Component {

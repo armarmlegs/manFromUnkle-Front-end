@@ -15,7 +15,7 @@
   margin-left:60px;
   background-color: #05204b;
   width: 300px;
-  height: 90px;
+  height: 100px;
   border-radius: 80px;
   display: flex;
   flex-direction: column;
@@ -40,10 +40,13 @@ p {
   margin-top: 10px;
   background-color: #359CE6;
   color: white;
+  position:fixed;
+  
 }
 
 .input {
   height: 300px;
+  
 }
 
 .topline{
